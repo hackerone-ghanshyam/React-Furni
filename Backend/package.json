@@ -1,0 +1,27 @@
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js",
+    "dev": "nodemon App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.4.1",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.19.0",
+    "nodemailer": "^7.0.13",
+    "nodemon": "^3.1.10"
+  },
+  "description": ""
+}
